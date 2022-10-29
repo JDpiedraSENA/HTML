@@ -1,0 +1,74 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+caption{
+    font-size: 30px;
+    color:red;
+
+}
+#segundotitulo{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(47, 24, 150);
+}
+body{
+    background-color: antiquewhite;
+}
+table, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+}
+
+table{
+    background-color: white;
+}
+td{
+    padding: 15px;
+    padding-bottom: 4px;
+    border-bottom: black;
+}
+tr:nth-child(even){
+    background-color: rgb(207, 132, 132);
+}
+ul {
+    background-color: rgb(87, 87, 87);
+    color: white;
+    padding: 20px;
+    margin-top: 3px;
+    
+}
+.menu {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 2px;
+    margin: 5px;
+    overflow: hidden;
+}
+#menu1 {
+    float: left;
+padding: 20px;
+}
+#menu2{
+    float: left;
+    padding: 20px;
+}
+#home{
+    float: left;
+    padding: 20px;
+}
+a:hover{
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    background-color: beige;
+}
+#boton{
+    text-align: center;
+    border-bottom-color: blue;
+    background-color: grey;
+}
+
